@@ -1,0 +1,123 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.right{
+    
+}
+
+
+.right-form{
+    border: 2px solid rgba(0, 0, 0, 0.224);
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+}
+
+.right-form img{
+    height: 7rem;
+}
+
+.right-form--inputs input[type=text], input[type=password]{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin: 5px 0px;
+    border: 1.5px solid rgba(0, 0, 0, 0.294);
+    height: 2.5rem;
+}
+
+.right-form--inputs input[type=submit]{
+    width: 100%;
+    height: 2.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #47afff;;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+
+.right-form--inputs p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.447);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.right-form--facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.right-form--facebook img{
+    height: 16px;
+}
+.right-form--facebook a{
+    text-decoration: none;
+    color: #3a5386;
+}
+
+#esqueceu{
+    text-decoration: none;
+    color: #395db6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.box{
+    border: 2px solid rgba(0, 0, 0, 0.224);
+    background-color: white;
+    margin-top: 15px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box a{
+    text-decoration: none;
+    color: #2672ac;
+}
+
+.box2{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box2 img{
+    height: 40px;
+    margin: 10px;
+}
