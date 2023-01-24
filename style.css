@@ -19,11 +19,6 @@ body{
 }
 
 
-.right{
-    
-}
-
-
 .right-form{
     border: 2px solid rgba(0, 0, 0, 0.224);
     padding: 2rem;
@@ -61,6 +56,7 @@ body{
     margin-top: 17px;
     cursor: pointer;
 }
+
 
 
 .right-form--inputs p{
@@ -120,4 +116,56 @@ body{
 .box2 img{
     height: 40px;
     margin: 10px;
+}
+
+.left{
+    display: block;
+}
+
+.leftImgs img{
+    position: fixed;
+    top: 30px;
+    left: 155px;
+
+    opacity: 0;
+    transition: all 2s;
+}
+
+.leftImgs img.selected{
+    opacity: 1;
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 1rem;
+}
+
+.footer p{
+    color: rgba(0, 0, 0, 0.779);
+}
+
+.footer a{
+    color: #47afff;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: #3a5386;
+}
+
+
+@media (max-width:800px){
+    .left{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
 }
