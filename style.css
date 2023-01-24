@@ -40,23 +40,32 @@ body{
     padding: 10px;
     outline: none;
     margin: 5px 0px;
-    border: 1.5px solid rgba(0, 0, 0, 0.294);
+    border: 1px solid rgba(0, 0, 0, 0.294);
     height: 2.5rem;
 }
+
+.right-form--inputs input[type=text]:focus, input[type=password]:focus{
+    border: 1px solid rgba(0, 0, 0, 0.597);
+}
+
 
 .right-form--inputs input[type=submit]{
     width: 100%;
     height: 2.5rem;
     padding: 10px;
     border-radius: 10px;
-    background-color: #47afff;;
+    background-color: #47afff;
     outline: none;
     border: none;
     color: white;
     margin-top: 17px;
     cursor: pointer;
+    transition: all .5s;
 }
 
+.right-form--inputs input[type=submit]:hover{
+    background-color: #3091db;
+}
 
 
 .right-form--inputs p{
